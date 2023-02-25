@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Norwegian Rails - Seat Reservation</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">Norwegian Rails</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="signup.html">Sign up</a></li>
+        </ul>
+      </nav>
+      </header>
+      <section class="add-ons">
+        <div class="container">
+          <h1>Add-ons</h1>
+          <form >
+            <div class="colum-flex" >
+
+            
+            <div class="">
+            <div class="add-on">
+              <input type="checkbox" id="wifi" name="add-on" value="wifi">
+              <label for="wifi">WiFi ($5)</label>
+            </div>
+            <div class="add-on">
+              <input type="checkbox" id="meal" name="add-on" value="meal">
+              <label for="meal">Meal ($10)</label>
+            </div>
+            <div class="add-on">
+              <input type="checkbox" id="blanket" name="add-on" value="blanket">
+              <label for="blanket">Blanket ($2)</label>
+            </div>
+            <!-- Add more add-ons here... -->
+            <button class="btn-submit" type="submit">Submit</button>
+          </div>
+          </div>
+          </form>
+          <div class="modal">
+            <div class="modal-content">
+              <h2>Congratulations!</h2>
+              <p>Your seat(s) have been reserved and your add-ons have been added to your booking.</p>
+              <button class="btn-close">Close</button>
+            </div>
+          </div>
+        </div>
+      </section>  
+      <!-- Add-ons section -->
+     
+    <footer>
+      <p>&copy; 2023 Norwegian Rails. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

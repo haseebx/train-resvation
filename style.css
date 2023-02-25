@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    height: 100vh;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2e86c1;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* nav {
+    display: none;
+  } */
+  
+.navbar{
+
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  /* margin-inline: "5rem"; */
+}
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    color:#fff
+  }
+  
+  .nav-links li:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu-toggle {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .container {
+     max-width: 1200px;
+     margin: 0 auto;
+    padding: 20px; 
+
+    
+  }
+  
+.colum-flex{
+  display: flex;
+    flex-direction: column;
+justify-content: space-between;
+}
+.btn-text{
+  text-decoration: none;
+  color: #fff;
+}
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2e86c1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: #24578b;
+  }
+  
+  .image-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+    margin-top: 20px;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
+ 
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .btn-signup {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Seat reservation section styles */
+  .seat-reservation {
+    margin-top: 50px;
+  }
+  
+  .seats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .seat {
+    display: flex;
+
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .seat input[type="radio"] {
+    margin-right: 10px;
+  }
+
+  .row-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .btn-next {
+    /* margin-top: 20px; */
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+  .btn-signup {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+  }
+
+  
+  /* Sign up button */
+  .signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btn-signup {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2e86c1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .btn-signup:hover {
+    background-color: #24578b;
+  }
+  
+  /* Sign up form */
+
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    background-color: #2e86c1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #24578b;
+  }
+  .widthX{
+    width: 50%;
+    margin-inline: auto;
+    margin-block: 2rem;
+  }
+/* Add-ons section styles */
+.add-ons {
+    margin-top: 50px;
+  }
+  
+  .add-on {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-on input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .btn-submit {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .btn-close {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
